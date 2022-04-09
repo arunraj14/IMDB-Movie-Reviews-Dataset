@@ -7,22 +7,17 @@ This is a dataset for binary sentiment classification containing imbalanced data
 
 Here is a short description on the purpose of each file in this repository.
 
-IMDB Sentiment Analysis.ipynb
-
+### IMDB Sentiment Analysis.ipynb
 This Notebook has all the necessary steps from data exploration, data preprocessing and data modelling with various algorithms.It also the evaluation metrics for the final result
 
-classifier.pkl
-
+### classifier.pkl
 Final model has been serialized as a pickle file which can be used directly in the target environment
 
-flask_app.py
-
+### flask_app.py
 REST API is built for ML prediction in Flask & Flasgger
 
-Dockerfile
-
+### Dockerfile
 Customized docker file for the IMDB Sentimental Analysis to build image for containers
 
-requirements.txt
-
+### requirements.txt
 All dependencies needed for the container
